@@ -55,6 +55,7 @@ body {
 /* Banner Styling */
 #banner {
     background-image: url("../img/forest.jpg");    
+    color: #fff;
     padding-top: 5%;
     background-attachment: fixed;
     background-position: center;
