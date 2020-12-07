@@ -4,13 +4,19 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: sans-serif;    
 }
 
 #nav-bar {
     position: sticky;
     top: 0;
     z-index: 10;
+}
+
+#nav-bar h4{
+    color: #fff;
+    padding: 3px;
+    margin-left: 5px;
 }
 
 .navbar {
@@ -51,7 +57,11 @@ body {
     background-image: url("../image/forest.jpg");
     color: #fff;
     padding-top: 5%;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .promo-title{
@@ -71,24 +81,27 @@ body {
 }
 
 #profile-image-jake{
-    width: auto;
-    height: 50%;
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 100px;
 }
 
 .bottom-img{width: 100%;}
 
-#siewjoekane{
-    color: #fff;
-}
-
-/* services section */
+/* services section styling*/
 
 #services{
     padding: 80px 0;    
 }
 
+.services ul {
+    list-style-type: none;
+}
+
 .service-img {
-    width: 100px;
+    width: 100%;
+    height: 50%;
     margin-top: 20px;
 }
 
@@ -97,6 +110,7 @@ body {
 }
 
 .services h4{
+    color: #000;    
     padding: 5px;
     margin-top: 25px;
     text-transform: uppercase;
@@ -104,6 +118,164 @@ body {
 
 .title::before {
     content:'';
-    background: #7b1798;
+    background: #000;
     height:5px;    
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content:'';
+    background: #000;
+    height:10px;    
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+    transform: translateY(8px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #000, #00e);
+}
+
+/* About us section styling */
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;    
+}
+
+#about-us ul li {
+    margin: 10px 0px;
+}
+
+.right-image{
+    width: 100%;
+    height: auto;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%; 
+}
+
+/* hobbies */
+#hobbies {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.left-image {
+    width: 100%;
+    height: auto;
+}
+
+.hobbies ul li {
+    margin: 10px 0;
+}
+
+.hobbies ul {
+    margin-left: 20px;
+}
+
+/* TESTIMONIALS STYLING*/
+
+#testimonials {
+    margin: 100px 0;
+}
+
+.testimonials {
+    border-left: 4px solid #000;
+    margin-bottom: 10px;    
+}
+
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* Social media section STYLING*/
+
+#social-media {
+    background: #f8f9fb;
+    padding: 100px 0;    
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    transition: 0.5s;  
+}
+
+.social-icons a {
+    margin-left: 100px;
+}
+
+.social-icons a:hover i {   
+    transform: translateY(-10px);
+}
+
+.social-icons .fa {
+    font-size: 25px;
+}
+
+/* footer */
+#footer{
+    background: #000;
+    color: #fff;    
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    margin-bottom: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.footer-box i {
+    margin-bottom: 15px;
+}
+
+hr {
+    color: #fff;
+}
+
+.footer-box .fa {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.copyright {
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 20px;
 }
