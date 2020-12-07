@@ -1,1 +1,1 @@
-heroku app:appheroku buildpacks:clear
+web: gunicorm app:app
