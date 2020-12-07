@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #000, #000);
+    padding: 0 !important;
+}
+
+.logo-profile {
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+}
+
+.navbar-nav li {
+    padding: 0 10px; 
+    margin: 2px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
+/* Banner Styling */
+#banner {
+    background-image: url("../image/forest.jpg");
+    color: #fff;
+    padding-top: 5%;
+
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100;
+}
+
+.linkedinlogo {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#profile-image-jake{
+    width: auto;
+    height: 50%;
+}
+
+.bottom-img{width: 100%;}
+
+#siewjoekane{
+    color: #fff;
+}
+
+/* services section */
+
+#services{
+    padding: 80px 0;    
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content:'';
+    background: #7b1798;
+    height:5px;    
+}
